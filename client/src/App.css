@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f2f5;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.prompt-input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.video-upload {
+  margin-bottom: 20px;
+}
+
+.generate-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 30px;
+  transition: background 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #357ABD;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon-button img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.2s ease;
+}
+
+.icon-button img:hover {
+  transform: scale(1.1);
+}
+
+.selected-video-container {
+  border: 4px solid #007bff; /* Blue border */
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+  background-color: #fefefe;
+  max-width: 540px;
+}
